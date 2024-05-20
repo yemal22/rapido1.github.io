@@ -1,0 +1,44 @@
+body{
+    background-image: url(../imgs/4.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+nav{
+    color: #2c2b2b;
+}
+
+.action{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-color: beige;
+}
+
+.rapido{
+    font-size: 1.1em;
+    color: red;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.taxi{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: yellow;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 0;
+    padding-left: 0;
+}
+.termine{
+    color: red;
+}
+
+.en-cours{
+    color: rgb(47, 255, 92);
+}
+
+.en-attente{
+    color: orange;
+}
